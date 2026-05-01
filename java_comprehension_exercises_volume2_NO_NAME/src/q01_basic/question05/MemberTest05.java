@@ -19,7 +19,9 @@ public class MemberTest05 {
 	 * @param actual 実際の値
 	 * @param expected 期待値
 	 * @param testName テスト名
+	 * 
 	 */
+
 	private static void assertEquals(Object actual, Object expected, String testName) {
 		if ((actual == null && expected == null) || (actual != null && actual.equals(expected))) {
 			System.out.println("✓ " + testName + " - 成功");
