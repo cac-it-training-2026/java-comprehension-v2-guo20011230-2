@@ -27,6 +27,7 @@ public class MemberTest01 {
 			System.err.println("✗ " + testName + " - 失敗");
 			System.out.println("  期待値: " + expected);
 			System.out.println("  実際値: " + actual);
+
 		}
 	}
 
